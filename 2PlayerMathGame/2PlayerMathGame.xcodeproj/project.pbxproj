@@ -508,6 +508,7 @@
 				ED6E45CF1C4D5B91009FD742 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED6E45D01C4D5B91009FD742 /* Build configuration list for PBXNativeTarget "2PlayerMathGameTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +517,7 @@
 				ED6E45D21C4D5B91009FD742 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED6E45D31C4D5B91009FD742 /* Build configuration list for PBXNativeTarget "2PlayerMathGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +526,7 @@
 				ED6E45D51C4D5B91009FD742 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

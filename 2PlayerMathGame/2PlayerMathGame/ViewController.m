@@ -25,7 +25,33 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.oneButton.clipsToBounds = YES;
+    self.oneButton.layer.cornerRadius = CGRectGetWidth(self.oneButton.frame) / 2.0f;
+    self.twoButton.clipsToBounds = YES;
+    self.twoButton.layer.cornerRadius = CGRectGetWidth(self.oneButton.frame) / 2.0f;
+    self.threeButton.clipsToBounds = YES;
+    self.threeButton.layer.cornerRadius = CGRectGetWidth(self.oneButton.frame) / 2.0f;
+    self.fourButton.clipsToBounds = YES;
+    self.fourButton.layer.cornerRadius = CGRectGetWidth(self.oneButton.frame) / 2.0f;
+    self.fiveButton.clipsToBounds = YES;
+    self.fiveButton.layer.cornerRadius = CGRectGetWidth(self.oneButton.frame) / 2.0f;
+    self.sixButton.clipsToBounds = YES;
+    self.sixButton.layer.cornerRadius = CGRectGetWidth(self.oneButton.frame) / 2.0f;
+    self.sevenButton.clipsToBounds = YES;
+    self.sevenButton.layer.cornerRadius = CGRectGetWidth(self.oneButton.frame) / 2.0f;
+    self.eightButton.clipsToBounds = YES;
+    self.eightButton.layer.cornerRadius = CGRectGetWidth(self.oneButton.frame) / 2.0f;
+    self.nineButton.clipsToBounds = YES;
+    self.nineButton.layer.cornerRadius = CGRectGetWidth(self.oneButton.frame) / 2.0f;
+    self.zeroButton.clipsToBounds = YES;
+    self.zeroButton.layer.cornerRadius = CGRectGetWidth(self.oneButton.frame) / 2.0f;
+    self.enterButton.clipsToBounds = YES;
+    self.enterButton.layer.cornerRadius = CGRectGetWidth(self.enterButton.frame) / 2.0f;
+
+
     // Do any additional setup after loading the view, typically from a nib.
+
     self.gameModel = [[GameModel alloc] init];
     self.player1 = [PlayerModel newPlayer];
     self.player2 = [PlayerModel newPlayer];
